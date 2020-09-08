@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OIB Generator", "OIB Generator\OIB Generator.csproj", "{C9F3EB12-B08D-4581-A919-66983E123FC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OIB Generator", "OIB Generator\OIB Generator.csproj", "{C9F3EB12-B08D-4581-A919-66983E123FC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D0B8A8A9-DA47-4ABC-8882-2AFCA0196728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OibGenerator.UnitTests", "tests\OibGenerator.UnitTests\OibGenerator.UnitTests.csproj", "{F00CB653-474C-4B3A-AB29-C2CE257BE39A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{C9F3EB12-B08D-4581-A919-66983E123FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9F3EB12-B08D-4581-A919-66983E123FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9F3EB12-B08D-4581-A919-66983E123FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00CB653-474C-4B3A-AB29-C2CE257BE39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00CB653-474C-4B3A-AB29-C2CE257BE39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00CB653-474C-4B3A-AB29-C2CE257BE39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00CB653-474C-4B3A-AB29-C2CE257BE39A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F00CB653-474C-4B3A-AB29-C2CE257BE39A} = {D0B8A8A9-DA47-4ABC-8882-2AFCA0196728}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDCFF44E-6180-4FED-BF7A-5C927275CF75}
